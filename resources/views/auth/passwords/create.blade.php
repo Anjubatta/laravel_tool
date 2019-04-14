@@ -1,0 +1,45 @@
+
+@extends('layouts.auth')
+@section('title', 'Forgot Password')
+@section('content')
+<div class="login_reg_page_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="login_reg_left_side">
+                    <img src="{{ asset('uploads/site/logo.png') }}">
+                    <p class="login_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="login_reg_form_outr">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{ __('New Password') }}</h3>
+                        </div>
+                        <div class="panel-body">
+                            {!! Form::open(['route' => 'password.create']) !!}
+                                {!! Form::hidden('email', $user->email) !!}
+                                {!! Form::hidden('verify', $user->verify) !!}
+                                <div class="form-group">
+                                    <input type="password" placeholder="Password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                                    @if ($errors->has('password'))
+                                    <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                    @endif
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder="Confirm Password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password_confirmation" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-lg btn-success btn-block">{{ __('Create Password') }}</button>
+                            {!! Form::close() !!}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

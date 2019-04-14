@@ -1,0 +1,823 @@
+/***************************************/
+/************ Paradise Css ************/
+/*************************************/
+
+body {
+	background-color: #edf7ff;
+	font-family: Raleway-Regular;
+	font-size: 15px;
+	color: #636363;
+}
+p.heading-att {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid #d98a69;
+}
+.login_reg_left_side img {
+    width: 260px;
+    margin: 0 auto 30px;
+    display: block;
+}
+.login_reg_page_wrapper .row {
+    display: inline-flex;
+    width: 100%;
+	height: 100vh;
+}
+.login_reg_page_wrapper .row .col-md-6 {
+    margin: auto;
+}
+.login_reg_left_side, 
+.login_reg_form_outr {
+	width: 80%;
+	margin: auto;
+}
+.login_reg_page_wrapper .row .col-md-6:first-child {
+    border-right: 2px solid #62c0c0;
+}
+.login_reg_left_side, .login_reg_form_outr {
+    text-align: center;
+}
+.login_reg_form_outr .panel {
+    border: none;
+    background-color: transparent;
+}
+.login_reg_form_outr .panel-heading {
+    background-color: transparent;
+    border: none;
+}
+.login_reg_form_outr h3.panel-title {
+    color: #d98a69;
+    font-weight: 600;
+    font-size: 21px;
+}
+.login_reg_form_outr form input.form-control,
+.login_reg_form_outr form input.form-control:hover,
+.login_reg_form_outr form input.form-control:focus {
+    background-color: #d1e2f2;
+    height: 40px;
+	font-weight: bold;
+}
+.login_reg_form_outr .checkbox {
+    text-align: left;
+}
+.login_reg_form_outr form button {
+    background-color: #d98a69;
+    border: none;
+	margin-bottom: 10px;
+	font-weight: 600;
+    text-transform: uppercase;
+}
+.login_reg_form_outr form button:hover,
+.login_reg_form_outr form button:focus {
+    background-color: #b95f3a;
+    transition: 0.3s ease-in-out;
+}
+p.login_txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+.login_reg_form_outr a {
+    display: block;
+	color: #636363;
+	margin-bottom: 3px;
+}
+span.date_time_cntr_line {
+    padding: 0 6px;
+}
+a.app-nav__item i.fa.fa-bell.fa-lg {
+    color: #60636a;
+	line-height: normal;
+}
+li.dropdown.user {
+    background-color: #d98a69;
+}
+li.dropdown.user a {
+    text-decoration: none;
+    padding: 15px 80px 15px 30px;
+    position: relative;
+}
+li.dropdown.user > a > i.fa.fa-user.fa-lg {
+    padding: 8px;
+    border: 1px solid #434343;
+    border-radius: 100%;
+    color: #434343;
+	font-size: 16px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+li.dropdown.date_time a {
+    text-decoration: none;
+    pointer-events: none;
+}
+.tile .tile-title h3 {
+    position: relative;
+    padding: 5px 10px 5px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tile .green h3 {
+    background-color: #62c0c0;
+}
+.table_top_btn {
+    display: block;
+    float: right;
+    margin: 15px;
+	border: 2px dashed;
+	border-radius: 0;
+}
+.tile .tile-title h3:after {
+    position: absolute;
+    right: -26px;
+    top: 0;
+    border: 32px solid #62c0c0;
+    content: "";
+    border-right: 26px solid transparent;
+    border-bottom: 10px;
+    bottom: 0;
+    border-left: 10px;	
+}
+.tile.daily-log .tile-title h3:after {
+    position: absolute;
+    right: -26px;
+    top: 0;
+    border: 32px solid #d98a69;
+    content: "";
+    border-right: 26px solid transparent;
+    border-bottom: 10px;
+    bottom: 0;
+    border-left: 10px;
+}
+.tile .tile-body {
+    padding: 15px;
+}
+.form-group.has-error {
+    color: #b32121;
+}
+.form-group label {
+    font-weight: 600;
+}
+.help-block {
+    display:  block;
+}
+table .action a {
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+table .action a:last-child {
+    border: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.tile {
+    padding: 0;
+}
+.details .edit {
+    display:  inline-block;
+    padding-right: 15px;
+    border-right:  2px solid #ccc;
+    vertical-align: text-bottom;
+}
+.details .toggle {
+    display:  inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+.details .edit i {
+    color: #4182b1;
+    margin-left: 3px;
+}
+.details h3 {
+    display:  inline-block;
+    margin-right: 30px;
+}
+
+/*new css 29-10-18*/
+
+.daily-log.tile .green h3 {
+    background-color: #d98a69;
+}
+.daily-log.tile a.btn.btn-outline-primary.table_top_btn {
+    color: #d98a69;
+}
+a.btn.btn-outline-primary.table_top_btn span {
+    font-family: Raleway-Regular;
+}
+.tile.daily-log a.btn.btn-outline-primary.table_top_btn:hover {
+    background-color: #d98a69;
+    color: #fff;
+    border-color: #d98a69;
+}
+.tile-body table.table td {
+    border-bottom: 2px solid #d1d1d1;
+	text-transform: capitalize;
+}
+.xdsoft_datetimepicker.xdsoft_noselect.xdsoft_.xdsoft_inline {
+    width: 100% !important;
+    float: left;
+}
+.date-header {
+    background-color: #e76b6b;
+    padding: 12px 18px 76px;
+    color: #fff;
+    display: block;
+    word-break: break-word;
+    font-size: 60px;
+    line-height: normal;
+    font-weight: bolder;
+}
+.date-header small {
+    font-size: 17px;
+	display: block;
+}
+body .xdsoft_datetimepicker .xdsoft_calendar td {
+    background: #f5f5f5;
+    border: none;
+    color: #666;
+    font-size: 12px; 
+}
+body .xdsoft_datetimepicker .xdsoft_calendar th {
+    color: #e76b6b;
+    box-shadow: none;
+    border: none;
+    background-color: #f5f5f5;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+body td.xdsoft_date.xdsoft_date.xdsoft_current {
+    color: #e76b6b;
+    box-shadow: none;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid;
+}
+body .form-group .xdsoft_datetimepicker .xdsoft_calendar td:hover,
+body .form-group .xdsoft_datetimepicker .xdsoft_calendar td:focus,
+body .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+    background-color: #F5F5F5 !important;
+    border-bottom: 1px solid #e76b6b;
+    color: #e76b6b !important;
+}
+.xdsoft_timepicker.active {
+    margin-left: 4px !important;
+}
+body .xdsoft_datetimepicker .xdsoft_calendar td > div {
+	padding-right: 0;
+    text-align: center;
+}
+.teacher-profile {
+    background-color: #fff;
+    width: 100%;
+    padding: 0 40px 30px;
+    float: left;
+    margin-bottom: 20px;
+}
+.heading span {
+  background-color:#fff !important;
+}
+.accord-title .flex-3 {
+    text-align: center;
+}
+form#filterform {
+	display: flex;
+	width: 100%;
+}
+form#filterform .dataTables_filter {
+    width: 100%;
+}
+#filterform .dataTables_filter label {
+    width: 95%;
+    display: inline-flex;
+    line-height: 36px;
+    font-size: 20px;
+}
+#filterform select.form-control {
+    margin: 0 0 0 10px;
+	border:none;
+}
+.rating.float-right .fa-angle-down:before {
+    font-size: 25px;
+}
+#addannouncment label.control-label {
+    width: 20%;
+    float: left;
+}
+#addannouncment input#title {
+    width: 80%;
+    float: left;
+	height: 40px;
+}
+#addannouncment .input-group {
+    width: 80%;
+    float: left;
+	height: 40px;
+}
+#addannouncment input#date {
+    width: 88%;
+	    height: 40px;
+}
+#addannouncment input#time {
+    width: 88%;
+	    height: 40px;
+}
+#addannouncment textarea#description {
+    width: 80%;
+    float: left;
+    height: 150px;
+}
+#addannouncment .form-group {
+    width: 100%;
+    float: left;
+}
+.form-group.row .time-out {
+    display: inline !important;
+    text-align: center;
+}
+.row.tution_detail select.form-control {
+    border: none;
+}
+.form-group.radio-btn input#active {
+    width: auto;
+}
+.xdsoft_datepicker.active {
+    z-index: 0;
+    position: relative;
+}
+.form-group.radio-btn p {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+.show_detail_info {
+    font-size: 17px;
+}
+.show_detail_info p {
+    margin-bottom: 10px;
+}
+.show_detail_top_r p span {
+    width: 210px;
+    display: inline-block;
+}
+.blue_title {
+    color: #01a0e4;
+    margin-bottom: 15px;
+}
+hr.half_width_hr {
+    width: 50%;
+    background-color: #646567;
+}
+.modal-header .close {
+    font-size: 40px;
+    padding: 0;
+    color: #646464;
+}
+section.Tution_head {
+    padding: 30px;
+    background-color: #ffffff;
+}
+.tution_detail input,
+.tution_detail textarea,  
+.tution_detail select.form-control {
+    background-color: #f4f4f4 !important;
+	border-radius: 0;
+}
+.app-title {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 0 15px;
+}
+.calen_icn input::-webkit-inner-spin-button,
+.calen_icn input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.btn.decline.decline_btn, .btn.approve {
+    width: 48%;
+}
+.btn.decline.decline_btn {
+    color: #ffffff;
+    padding: 4px 0;
+    font-size: 18px;
+}
+.btn.decline.decline_btn:hover, 
+.btn.approve:hover {
+    color: #ffffff;
+}
+form.daily_top_search {
+    margin-bottom: 15px;
+}
+form.daily_top_search input[type="text"] {
+    width: 300px;
+    border: none;
+    padding: 6px;
+    border-radius: 0;
+}
+.profile-select .dropdown-menu {
+    box-shadow: 0 0 1px #333333;
+}
+.tution_detail select {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+.tution_detail select:focus {
+	border: none;
+	outline: none;
+}
+.table.student_fee_table th {
+    color: #333333;
+    font-weight: 600;
+    text-align: left;
+	line-height: normal;
+}
+.programe_table .tile {
+    box-shadow: none;
+}
+.table.student_fee_table {
+    margin: 0;
+}
+.tile.tution_fee_outr {
+    padding: inherit;
+}
+.tution_fee_outr .tile-footer {
+    text-align: right;
+    padding: 15px 0;
+}
+.help-block {
+    color: #e82020;
+	font-size: 13px;
+    text-align: left;
+}
+input.form-control.is-invalid {
+    border: 2px solid #dc3545;
+    margin-bottom: 2px;
+}
+.white_wrapper {
+    background-color: #fff;
+    padding: 30px;
+}
+.green_orange_box_outr {
+    margin-bottom: 20px;
+}
+.teacher_leave_wrapper .tile-body {
+    padding: 0;
+}
+td.action .viewleave_popup {
+    text-align: left;
+}
+.dashboard_page_wrapper table.table {
+    margin-bottom: 0;
+}
+.form-group.radio-btn label.control-label {
+    line-height: normal;
+}
+.input-group-append .input-group-text {
+    border: 1px solid #ced4da;
+    background-color: #e9e9e9;
+    border-left: 0;
+}
+#addannouncment input#date, #addannouncment input#time {
+    border-right: 0;
+}
+.form-fields.col-md-9.leave_unit {
+    padding-top: 9px;
+}
+.tile .tile-footer {
+	border: none;
+}
+.tile-footer.row {
+	padding: 15px 0;
+}
+button:focus {
+	outline: none;
+}
+.dataTables_filter label {
+    width: 80%;
+}
+.dataTables_filter input {
+    width: 72%;
+    border: 0px;
+	display: inline-block;
+	height: 36px;
+}
+ul.app-breadcrumb.breadcrumb li a {
+    color: #000;
+    font-size: 18px;
+}
+ul.app-breadcrumb.breadcrumb li:last-child a {
+    color: #e09169;
+}
+.table thead th {
+    font-weight: normal;
+}
+ul.pagination .page-item:first-child .page-link,ul.pagination .page-item:last-child .page-link{
+    border-radius: 50%;
+    border: 2px solid #d88968;
+    color: #d88968;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.pagination .page-item.active .page-link ,.page-link{
+    z-index: 1;
+    color: #020202;
+    background-color: transparent;
+    border-color: #009688;
+    border: 0px;
+}
+.Record .row.justify-content-center {
+    width: 100%;
+    margin: auto;
+}
+.tution_title{    
+	text-align: center;
+    color: #3f3f3f;
+    margin: 25px 0 50px 0;
+}
+.tution_title h3	{    
+	font-size: 30px;
+	font-weight: 600;
+}
+.his_pay_table .tile-body table.table td {
+    border: none;
+}
+.his_pay_table .tile-body table.table {
+    width: auto;
+    margin: 30px 0;
+}
+.his_pay_table .table-responsive {
+    border-bottom: 1px solid #cccccc;
+}
+.his_pay_table .table-responsive:last-child {
+    border-bottom: none;
+}
+
+/**********************/
+
+.portfolio-post .post{
+background-color:#fff;
+padding:15px;
+margin-top: 20px;
+margin-left: 17px;
+}
+.portfolio-post .nav-tabs .nav-link{
+color: #495057;
+background-color: transparent;
+border-right: 1px solid #656161;
+border-radius: 0px;
+padding: 0px 17px;
+border-top: 0px;
+border-left: 0px;
+border-bottom: 0px;
+font-weight: lighter;
+}
+.portfolio-post .nav-tabs .nav-link.active {
+font-weight: bold;
+}
+.portfolio-post .nav-tabs {
+border-bottom: 1px solid #dee2e6;
+border-bottom: navajowhite;
+}
+.portfolio-post h2 {
+color: #62c0c0;
+font-weight: 600;
+text-transform: capitalize;
+font-size: 25px;
+padding-left:17px;
+}
+.portfolio-post .post input{
+color: #d98a69;
+border: 1px solid #c8c8c8;}
+.portfolio-post .post textarea {
+width: 100%;
+padding: 3px 10px;
+color: #62c0c0;}
+.postbtn {
+background: #d98a69;
+border-radius: 0px;
+border: 0px;
+padding: 1px 21px;
+text-transform: uppercase;
+color:#fff;
+display: block;
+}
+.upload-btn-wrapper {
+position: relative;
+overflow: hidden;
+display: inline-block;
+}
+.uploadbtn {
+border: 2px dashed gray;
+color: gray;
+background-color: white;
+padding: 8px 20px;
+font-size: 20px;
+font-weight: bold;
+height: 200px;
+width: 300px;
+margin-bottom: 20px;
+text-transform: capitalize;
+padding: 75px 0px;
+}
+.uploadbtn i {
+display: block; 
+}
+.upload-btn-wrapper input[type=file] {
+font-size: 100px;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+}
+.upload-btn-wrapper img{
+max-width:180px;
+}
+.upload-btn-wrapper input[type=file]{
+padding:10px;
+background:#2d2d2d;}
+
+
+.nav.nav-tabs li:last-child a {
+border: none;
+}
+div#image_preview {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+	    flex-wrap: wrap;
+       
+}
+div#image_preview img {
+          width: 311px;
+    margin: 11px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 225px;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}
+/********view portfilo****/
+.portfolio-post .post{
+    background-color:#fff;
+    padding:15px;
+    margin-top: 20px;
+}
+.portfolio-post  h2 {
+    color: #3e8e8d;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 27px;
+	    padding: 20px 0 0px 15px;
+}
+.view-bx p{
+	    width: 100%;
+color: #408f8a;
+margin: 0px;
+font-size: 18px;}
+.view-bx small {
+    color: #d78b6b;
+    font-size: 17px;
+}
+.portfolio-post h4 {
+    color: #3f8d91;
+    font-weight: 2;
+    font-size: 21px;
+    margin: 10px 0px;
+
+}
+.view-bx h6 {
+    color: #6c6e6f;
+    font-size: 18px;
+}
+.view-bx {
+
+        margin-bottom: 40px;
+      margin: 0px 15px;
+    padding: 20px 0px;
+
+}
+.view-bx .row .col-md-6 {
+    margin-bottom: 30px;
+}
+.edit_delete {
+display: flex;
+-ms-display: flex;
+-webkit-display: flex;
+justify-content: space-between;
+-ms-justify-content: space-between;
+-webkit-justify-content: space-between;
+
+}
+.view-bx button {
+border: 0px;
+background-color: transparent;
+color: #3e8e8d;
+cursor: pointer;
+}
+/******************/
+/*
+/*****************************/
+/****** Responsive Css ******/
+/***************************/
+
+
+@media screen and (max-width:1199px){
+	
+.xdsoft_datepicker.active {
+    width: 100% !important;
+    margin: 0;
+    max-width: 220px;
+    overflow-x: scroll;
+    padding: 0;
+}
+.date-header {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width:991px){
+
+.col-md-9.col-sm-12, .col-md-3.col-sm-12 {
+    max-width: 100%;
+    flex: 100%;
+}
+}
+
+@media screen and (max-width:767px){
+.xdsoft_datepicker.active {
+    width: 100% !important;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: inherit;
+    padding: 0;
+}
+.xdsoft_datepicker.active {
+    margin: 0 0 0 4px !important;
+}
+
+form#filterform .dataTables_filter {
+    width: 100%;
+}
+.dataTables_filter input {
+    width: 100% !important;
+}
+#addannouncment .input-group, 
+#addannouncment input#title, 
+#addannouncment textarea#description {
+    width: 100%;
+}
+#addannouncment label.control-label {
+    width: 100%;
+    line-height: normal;
+}
+#addleave .modal-body, .viewleave_popup .modal-body, div#addannouncment .modal-body {
+    padding: 15px 0;
+}
+#addannouncment input#date, #addannouncment input#time {
+    width: 79%;
+}
+.date-header {
+    padding: 12px 18px;
+}
+.dataTables_filter label {
+	width: 100%;
+}
+.form-fields.row.calen label {
+    margin: 5px 0;
+    width: 100%;
+}
+.white_wrapper, section.Tution_head {
+    padding: 15px;
+}
+.tution_title h3 {
+    font-size: 24px;
+}
+}
+
+@media screen and (max-width:480px){
+.app-sidebar {
+    padding-top: 125px;
+}
+}
